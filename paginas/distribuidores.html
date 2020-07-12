@@ -16,12 +16,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="../lib/css/slicknav.css">
-    <!-- Nivo Lightbox -->
-    <link rel="stylesheet" type="text/css" href="../lib/css/nivo-lightbox.css">
     <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="../lib/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 
     <!-- CDN Iconos font awesome -->
     <script src="https://kit.fontawesome.com/8b23f17bfa.js" crossorigin="anonymous"></script>
@@ -29,74 +25,28 @@
 
 <body>
     <!-- Wrapper del encabezado -->
-    <header id="header-wrap">
+    <header>
         <!-- Inicio del Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
-            <div class="container-fluid padding-menu">
-                <!-- Menu separado Git 4356 Bootstrap -->
-                <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        <span class="icon-menu"></span>
-                        <span class="icon-menu"></span>
-                        <span class="icon-menu"></span>
-                    </button>
-                    <div class="container">
-                        <a href="../index.html" class="navbar-brand">
-                            <img src="../img/Rolex.svg" class="img-fluid rolex-logo" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                <div class="collapse navbar-collapse mt-30" id="main-navbar">
-                    <ul class="navbar-nav mr-auto w-100 justify-content-start">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">
-                                Inicio
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="submariner.html">
-                                Relojes
-                            </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="distribuidores.html">
-                                Distribuidores
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="descubriendo_rolex.html">
-                                Conocer más
-                            </a>
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="../index.html"><img src="../img/Rolex.svg" width="70" height="70" alt="logo oficial rolex"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMarkup" aria-controls="navbarMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link ml-10" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link ml-10" href="submariner.html">Relojes</a>
+                    <a class="nav-item nav-link ml-10 active" href="distribuidores.html">Distribuidores</a>
+                    <a class="nav-item nav-link ml-10" href="descubriendo_rolex.html">Conocer más</a>
                 </div>
             </div>
-
-            <!-- Menu para telefonos -->
-            <ul class="mobile-menu">
-                <li>
-                    <a class="page-scroll" href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="submariner.html">Relojes</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="distribuidores.html">Distribuidores</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="descubriendo_rolex.html">Conocer más</a>
-                </li>
-            </ul>
         </nav>
     </header>
 
     <!-- Sección de contacto -->
     <section id="contact-map" class="mt-60">
         <div class="container-fluid-custom">
-            <img src="../img/contacto/rolex_experience.jpg" alt="" class="img-fluid">
+            <img src="../img/contacto/rolex_experience.jpg" alt="brazo de hombre portando Rolex" class="img-fluid">
         </div>
         <div class="container mt-30">
             <div class="row justify-content-center">
@@ -171,7 +121,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <img src="../img/contacto/retailer_cercano1.jpg" alt="" class="card-img-top">
+                            <img src="../img/contacto/retailer_cercano1.jpg" alt="Logo de distribuidor Rolex" class="card-img-top">
                             <p class="dist-rolex-text">Distribuidor Rolex</p>
                             <p class="h3-custom color-verde">LA JOAILLERIE</p>
                             <p class="p-custom">Av. Santa Fe 896 <br> C1059ABP CABA <br> Buenos Aires <br> Argentina</p>
@@ -209,7 +159,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 align-self-center">
-                    <img src="../img/Rolex.png" alt="">
+                    <img src="../img/Rolex.png" alt="Logo oficial Rolex">
                 </div>
                 <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 mb-10">
                     <h3>Accesos Rápidos</h3>
@@ -222,16 +172,12 @@
                 </div>
                 <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 align-self-center">
                     <div class="widget">
-                        <h5 class="widget-title">CANALES OFICIALES</h5>
+                        <h4 class="widget-title">Canales Oficiales</h4>
                         <ul class="footer-social">
-                            <li><a class="facebook" href="http://www.facebook.com/rolex" target="_blank"><i
-                                        class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="twitter" href="https://twitter.com/rolex" target="_blank"><i
-                                        class="fab fa-twitter"></i></a></li>
-                            <li><a class="linkedin" href="https://linkedin.com/company/rolex" target="_blank"><i
-                                        class="fab fa-linkedin-in"></i></a></li>
-                            <li><a class="instagram" href="http://www.instagram.com/rolex" target="_blank"><i
-                                        class="fab fa-instagram"></i></a></li>
+                            <li><a class="facebook" href="http://www.facebook.com/rolex" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/rolex" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="linkedin" href="https://linkedin.com/company/rolex" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="instagram" href="http://www.instagram.com/rolex" target="_blank"><i  class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -239,21 +185,9 @@
         </div>
     </footer>
 
-    <!-- Link para ir al inicio -->
-    <a href="#" class="back-to-top">
-        <i class="fas fa-chevron-up"></i>
-    </a>
-
     <script src="../lib/js/jquery-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="../lib/js/jquery.nav.js"></script>
-    <script src="../js/jquery.slicknav.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
